@@ -1,0 +1,28 @@
+Time - Complexity
+
+Run time analysis (Worst-Case Big-O Notation) of the 5 tasks in Project 0:
+
+
+TASK 0: O(1)
+Since there are two print statements which are accesing elements of the files;
+Therefore, it is a constant, going through same set of lines so O(c) (where c = constant) which is represented as O(1). 
+
+TASK 1: O(n)
+Since there are two different FOR loops iterating over some n set of values and it has some statements;
+Therefore, it is linear, as it is dependent on n - number of elements; so O(2*n + c) (where c = constant) which is represented as O(n).
+
+TASK 2: O(n)
+Since there are some number have FOR loops over the logic, which are iterating over different number of elements; 
+But as we are looking for worst case scenarios; and we have some other statements throughout the logic; it can be written as:
+O(x*n + c) (where c, x = constant) which is also represented as O(n).
+
+TASK 3: O(n*log(n))
+There are 3 FOR loops throughout the logic and two of them are followed by a bunch of if..else statements. 
+There's also in-built sorted() function that is used.
+Therefore in this case; O(n*log(n) + x*(n + y) + c) (where c, x, y  = constant) which is represented by O(n*log(n)).
+It'll be O(n*log(n)) because for larger values of n the "n" term can be neglected leaving us with O(n*log(n)).
+
+TASK 4: O(n*log(n))
+There are some FOR loops and other statements; There's also in-built sorted() function that is used
+similar to above cases: O(n*log(n) + x*(n + y) + c) (where c, x, y  = constant) which is represented by O(n*log(n));
+It'll be O(n*log(n)) because for larger values of n the "n" term can be neglected leaving us with O(n*log(n)).
