@@ -8,4 +8,4 @@
     
 * Recursion Notes
 
-- The code is written in Python as of now...
+- The code is written in *Python*.
